@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
 </head>
-<body>
-    <header id="header">
-        <nav class="navbar navbar-dark bg-dark">
+<body class="bg-body">
+    <header id="header" class="bg-dark bg-gradient">
+        <nav class="navbar navbar-dark">
             <div class="container-fluid">
                 <span class="navbar-brand">KeeP</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -18,12 +18,20 @@
                 </button>
             </div>
             <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark">
-                    <ul>
-                        <li><a href="">Заметки</a></li>
-                        <li><a href="">Магазин</a></li>
-                        <li><a href="">Расход ТС</a></li>
-                    </ul>
+                <div class="d-grid container-fluid">
+                    <div class="col">
+                        <div class="row">
+                            <a class="btn btn-primary" href="#" role="button">Заметки</a>
+                        </div>
+
+                        <div class="row">
+                            <a class="btn btn-primary" href="#" role="button">Поход в магазин</a>
+                        </div>
+
+                        <div class="row">
+                            <a class="btn btn-primary" href="#" role="button">Расходы на ТС</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
