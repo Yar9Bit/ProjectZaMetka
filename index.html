@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.bundle.js"></script>
 </head>
-<body class="bg-dark">
-    <header id="header" class="bg-dark d-flex">
+<body class="flex-lg-wrap">
+    <header class="bg-dark d-lg-flex">
         <nav class="navbar navbar-dark">
-            <div class="d-flex">
+            <div class="">
                 <button class="navbar-toggler btn-outline-secondary" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <a href="#" class="navbar-brand btn"
-               style="font-size: 42px; font-family: 'Open Sans', sans-serif; font-weight: bold">ЗаМетка</a>
+            <div class="d-inline-block">
+                <a href="#" class="navbar-brand btn"
+                   style="font-size: 42px; font-family: 'Open Sans', sans-serif; font-weight: bold">ЗаМетка</a>
+            </div>
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="clearfix">
                     <div class="row-cols-lg-auto d-lg-flex">
@@ -37,7 +39,7 @@
             </div>
         </nav>
     </header>
-    <main id="main" class="d-lg-flex">
+    <main id="main">
         <section id="Notes">
 
         </section>
@@ -48,10 +50,8 @@
 
         </section>
     </main>
-    <footer id="footer" class="text-light d-lg-flex text-center fixed-bottom">
-        <div class="fixed-bottom bg-gradient">
-            <span class="user-select-none" style="text-transform: uppercase">2022 yar9bit</span>
-        </div>
+    <footer id="footer">
+
     </footer>
 </body>
 </html>
